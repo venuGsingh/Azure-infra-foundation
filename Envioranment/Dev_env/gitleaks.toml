@@ -1,0 +1,5 @@
+[[rules]]
+id = "hardcoded-password"
+description = "Hardcoded Password"
+regex = '''(?i)(password|admin_password)\s*=\s*"[^"]+"'''
+tags = ["password","terraform"]
